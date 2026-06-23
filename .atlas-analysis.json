@@ -1,0 +1,44 @@
+{
+  "projectType": "frontend",
+  "projectName": "Gibson.dev Portfolio",
+  "projectDescription": "A personal portfolio website for Gibson Muiruri Mwangi, a Software Engineering student specialising in AI, machine learning, cybersecurity, and research-driven software.",
+  "theme": "luma",
+  "primaryColor": "#5b8cff",
+  "lightColor": "#9bb9ff",
+  "darkColor": "#090d18",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["introduction", "about"]
+      },
+      {
+        "group": "Projects",
+        "pages": ["projects/overview", "projects/shea-core", "projects/digital-id", "projects/iot-ddos", "projects/pandemic-detection"]
+      },
+      {
+        "group": "Skills & Research",
+        "pages": ["skills", "research", "writing"]
+      },
+      {
+        "group": "Contact",
+        "pages": ["contact"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Privacy-focused AI assistant (Shea Core) built with Python, FastAPI, and Vosk",
+    "Digital ID Verification System with QR code generation and authentication",
+    "IoT DDoS Detection research for cybersecurity in connected environments",
+    "Pandemic detection via social media using ML and social analytics",
+    "Traffic & weather route optimisation system",
+    "Technical writing covering AI, identity systems, and public health tech",
+    "Responsive single-page layout with sidebar navigation and smooth scrolling"
+  ],
+  "publicApiSurface": [
+    "gibson.dev portfolio website (Gibson_Portfolio.html)",
+    "Email: mwangigibson71@gmail.com",
+    "GitHub: https://github.com/mwasgibson",
+    "CV: https://drive.google.com/file/d/1UbEzsmDUPQM_PgOKHmoeLxlb6zNDS4OS/view?usp=drive_link"
+  ]
+}

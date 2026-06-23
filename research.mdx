@@ -1,0 +1,78 @@
+---
+title: "AI & Cybersecurity Research by Gibson Mwangi"
+sidebarTitle: "Research"
+description: "Gibson's active research work spans AI-driven disease detection and IoT cybersecurity. Covers research goals, methodology, and connections to live projects."
+---
+
+Gibson's research sits at the intersection of artificial intelligence and real-world systems vulnerability — two domains where early, accurate signals carry enormous practical value. Rather than treating research as purely academic, he connects every investigation directly to working software, using live projects as the test bed for validating hypotheses about public health monitoring and IoT network security.
+
+## AI-Driven Disease Detection
+
+This is Gibson's primary research focus and the area where his AI, NLP, and data analysis skills converge most directly.
+
+### What It Is
+
+Traditional public health surveillance relies on clinical reporting pipelines that can lag an emerging outbreak by days or weeks. Gibson's research explores whether social media content — the informal, real-time record of how people describe illness in their own words — can serve as an earlier, complementary signal for disease spread.
+
+### Research Goals
+
+- Detect potential outbreak signals **before** official case counts reflect community spread.
+- Build classification models that can distinguish genuine health signals from noise, misinformation, and seasonal variation.
+- Produce outputs that are interpretable enough to be actionable for public health responders, not just statistically interesting.
+
+### Methodology
+
+1. **NLP on Social Media Text** — Applying text classification, keyword extraction, and sentiment analysis to large volumes of user-generated content.
+2. **Anomaly Detection** — Identifying statistically unusual spikes in symptom-related language within geographic regions and time windows.
+3. **ML Classification** — Training supervised models to label posts and aggregate signals into outbreak-probability scores.
+
+<Info>
+  This research is actively being developed into a working system. The methodology described above is implemented and iterated on through the Pandemic Detection project.
+</Info>
+
+**Connected project:** [Pandemic Detection via Social Media](/projects/pandemic-detection)
+
+---
+
+## IoT Security Research
+
+Gibson's second research track addresses a growing and underexplored problem: the vulnerability of low-power, resource-constrained IoT devices to distributed denial-of-service attacks.
+
+### Focus
+
+Consumer and industrial IoT devices — from smart sensors to embedded controllers — often lack the compute headroom for traditional intrusion detection systems. This makes them both easy targets and unwitting amplifiers in large-scale DDoS campaigns. Gibson's research investigates detection approaches that are lightweight enough to run at the edge.
+
+### Approach
+
+- **Network Traffic Analysis** — Characterising normal traffic baselines for representative IoT device classes and identifying deviation patterns associated with attack conditions.
+- **Lightweight ML Models** — Evaluating classifiers (decision trees, shallow neural networks, rule-based systems) that can operate within the memory and CPU constraints typical of embedded environments.
+- **Evaluation under realistic conditions** — Testing detection accuracy against both simulated volumetric attacks and protocol-exploitation scenarios.
+
+**Connected project:** [IoT DDoS Detection](/projects/iot-ddos)
+
+---
+
+## Research Values
+
+The principles that guide how Gibson approaches his research practice.
+
+<CardGroup cols={2}>
+  <Card title="Evidence-Based Approach" icon="magnifying-glass">
+    Claims are grounded in data and reproducible experiments, not intuition alone.
+  </Card>
+  <Card title="Reproducibility" icon="rotate">
+    Methodology is documented clearly enough that another researcher could replicate it from scratch.
+  </Card>
+  <Card title="Real-World Impact" icon="earth-africa">
+    Research is only as valuable as the problems it solves — every project maps to a tangible use case.
+  </Card>
+  <Card title="Open Collaboration" icon="handshake">
+    Complex problems benefit from multiple perspectives; Gibson actively seeks research dialogue.
+  </Card>
+</CardGroup>
+
+<Note>
+  Gibson is interested in research collaborations. Reach out via the [Contact](/contact) page.
+</Note>
+
+For published technical writing on these research topics — including detailed methodology breakdowns — visit [Writing](/writing).
